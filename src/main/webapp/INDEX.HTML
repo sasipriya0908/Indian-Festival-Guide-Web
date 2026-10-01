@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Festivals Guide | Experience the Magic</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Indian Festivals Guide 🪔</h1>
+        <p>Explore the vibrant colors, rich traditions, and spiritual essence of India's most celebrated festivals.</p>
+        <a href="registration.html" class="header-link">← Back to Registration</a>
+    </header>
+
+    <main>
+        <div id="welcome-banner" class="welcome-banner">
+            <span id="welcome-text">Namaste, Guest!</span>
+            <button id="reset-profile-btn" class="btn">Reset Profile</button>
+        </div>
+
+        <section id="festival-slider-section" class="slider-section">
+            <div class="slider-container">
+                <div class="slider-wrapper">
+                    <div class="slide active" data-slide-index="0">
+                        <div class="slide-content">
+                            <h2>🪔 Diwali Showcase</h2>
+                            <p>Celebrate the victory of spiritual light over darkness. Discover historical traditions,
+                                sweets recipe ideas, and custom home decorations.</p>
+                            <a href="diwali.html" class="btn">Explore Diwali</a>
+                        </div>
+                        <div class="slide-image-container">
+                            <img src="diwali.jpg" alt="Diwali Lights" class="slide-img">
+                        </div>
+                    </div>
+                    <div class="slide" data-slide-index="1">
+                        <div class="slide-content">
+                            <h2>🎨 Holi Showcase</h2>
+                            <p>Dive into the vibrant celebration of love and colors marking the arrival of spring. Learn
+                                about traditions and local events.</p>
+                            <a href="holi.html" class="btn">Explore Holi</a>
+                        </div>
+                        <div class="slide-image-container">
+                            <img src="Holi.jpg" alt="Holi Colors" class="slide-img">
+                        </div>
+                    </div>
+                    <div class="slide" data-slide-index="2">
+                        <div class="slide-content">
+                            <h2>💃 Navratri Showcase</h2>
+                            <p>Immerse yourself in nine nights of high-energy Garba dancing, devotion, and prayers
+                                dedicated to Goddess Durga.</p>
+                            <a href="navratri.html" class="btn">Explore Navratri</a>
+                        </div>
+                        <div class="slide-image-container">
+                            <img src="navaratri.jpg" alt="Navratri Garba" class="slide-img">
+                        </div>
+                    </div>
+                    <div class="slide" data-slide-index="3">
+                        <div class="slide-content">
+                            <h2>🌸 Onam Showcase</h2>
+                            <p>Experience Kerala's grand harvest festival featuring floral carpets, snake-boat races,
+                                and the grand Sadhya feast.</p>
+                            <a href="onam.html" class="btn">Explore Onam</a>
+                        </div>
+                        <div class="slide-image-container">
+                            <img src="onam.webp" alt="Onam Pokalam" class="slide-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-arrow prev" id="slider-prev">&lt;</div>
+                <div class="slider-arrow next" id="slider-next">&gt;</div>
+                <div class="slider-dots" id="slider-dots">
+                    <span class="slider-dot active" data-dot-index="0"></span>
+                    <span class="slider-dot" data-dot-index="1"></span>
+                    <span class="slider-dot" data-dot-index="2"></span>
+                    <span class="slider-dot" data-dot-index="3"></span>
+                </div>
+            </div>
+        </section>
+
+        <h2 class="main-title">Popular Festivals of India</h2>
+
+        <section class="filter-section">
+            <div class="filter-tabs">
+                <button class="filter-tab active" data-filter="all">All Festivals</button>
+                <button class="filter-tab" data-filter="light">Lights & Devotion</button>
+                <button class="filter-tab" data-filter="color">Colors & Joy</button>
+                <button class="filter-tab" data-filter="harvest">Harvest Festivals</button>
+                <button class="filter-tab" data-filter="family">Family Bond</button>
+            </div>
+        </section>
+
+        <div class="container" id="festivals-container">
+
+            <article class="card" data-category="light">
+                <div>
+                    <h2>🪔 Diwali</h2>
+                    <img src="diwali.jpg" alt="Diwali Decorations">
+                    <p>
+                        The "Festival of Lights" celebrating the victory of light over darkness and knowledge over
+                        ignorance.
+                    </p>
+                </div>
+                <a href="diwali.html">
+                    <button>Discover the Magic</button>
+                </a>
+            </article>
+
+            <article class="card" data-category="color">
+                <div>
+                    <h2>🎨 Holi</h2>
+                    <img src="Holi.jpg" alt="People playing with colors">
+                    <p>
+                        The exuberant "Festival of Colors" where boundaries blur in a celebration of love, spring, and
+                        joy.
+                    </p>
+                </div>
+                <a href="holi.html">
+                    <button>Join the Celebration</button>
+                </a>
+            </article>
+            <article class="card" data-category="light">
+                <div>
+                    <h2>💃 Navratri</h2>
+                    <img src="navaratri.jpg" alt="Garba Dance">
+                    <p>
+                        A nine-night odyssey of dance and devotion dedicated to the divine feminine power, Goddess
+                        Durga.
+                    </p>
+                </div>
+                <a href="navratri.html">
+                    <button>Experience the Rhythm</button>
+                </a>
+            </article>
+            <article class="card" data-category="light">
+                <div>
+                    <h2>🌙 Eid al-Fitr</h2>
+                    <img src="eid.jfif" alt="Eid Prayers">
+                    <p>
+                        A beautiful conclusion to Ramadan, marked by prayers, heartfelt charity, and joyous community
+                        feasts.
+                    </p>
+                </div>
+                <a href="eid.html">
+                    <button>Celebrate Together</button>
+                </a>
+            </article>
+            <article class="card" data-category="light">
+                <div>
+                    <h2>🎄 Christmas</h2>
+                    <img src="christmas.jfif" alt="Christmas Tree">
+                    <p>
+                        The universal season of joy, celebrating the birth of Jesus with carols, gifts, and glowing
+                        lights.
+                    </p>
+                </div>
+                <a href="christmas.html">
+                    <button>Spread the Cheer</button>
+                </a>
+            </article>
+            <article class="card" data-category="light">
+                <div>
+                    <h2>🐘 Ganesh Chaturthi</h2>
+                    <img src="ganesh.webp" alt="Lord Ganesha Statue">
+                    <p>
+                        A grand celebration welcoming Lord Ganesha, the harbinger of wisdom and the remover of all
+                        obstacles.
+                    </p>
+                </div>
+                <a href="ganesh.html">
+                    <button>Seek Blessings</button>
+                </a>
+            </article>
+            <article class="card" data-category="harvest">
+                <div>
+                    <h2>🌾 Pongal</h2>
+                    <img src="pongal.jfif" alt="Pongal Harvest Celebration">
+                    <p>
+                        The traditional harvest festival of South India, honoring nature's bounty and the Sun God.
+                    </p>
+                </div>
+                <a href="pongal.html">
+                    <button>Honor the Harvest</button>
+                </a>
+            </article>
+
+            <article class="card" data-category="family">
+                <div>
+                    <h2>🎀 Raksha Bandhan</h2>
+                    <img src="raksha bandhan.avif" alt="Raksha Bandhan Celebration">
+                    <p>
+                        A beautiful festival celebrating the sacred bond of love, care, and protection between brothers
+                        and sisters.
+                    </p>
+                </div>
+                <a href="rakshabandhan.html">
+                    <button>Explore Sibling Bond</button>
+                </a>
+            </article>
+            <article class="card" data-category="harvest">
+                <div>
+                    <h2>🌸 Onam</h2>
+                    <img src="onam.webp" alt="Onam Floral Decoration">
+                    <p>
+                        Kerala's grand harvest festival, welcoming the legendary King Mahabali with beautiful flower
+                        carpets and feasts.
+                    </p>
+                </div>
+                <a href="onam.html">
+                    <button>Celebrate the Harvest</button>
+                </a>
+            </article>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Indian Festivals Guide | Crafted with ❤️ for Web Technology</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>

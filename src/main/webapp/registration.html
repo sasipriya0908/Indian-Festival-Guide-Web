@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festival Community Registration | Indian Festivals Guide</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="registration-page-body">
+
+    <header>
+        <h1>Indian Festivals Guide 🪔</h1>
+        <p>Join Our Festival Community & Explore Vibrant Traditions</p>
+    </header>
+
+    <main>
+        <section id="registration-section" class="registration-section">
+            <h2>🎯 Join Our Festival Community</h2>
+            <p>Register to get personalized festival recommendations and exclusive updates!</p>
+            
+            <form id="registration-form" class="registration-form">
+                <div class="form-group">
+                    <label for="reg-id">Registration ID (Auto-Generated):</label>
+                    <input type="text" id="reg-id" name="reg-id" readonly class="readonly-input">
+                </div>
+
+                <div class="form-group">
+                    <label for="full-name">Full Name:</label>
+                    <input type="text" id="full-name" name="full-name" placeholder="Enter your full name" required>
+                    <span class="error-msg" id="name-error"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    <span class="error-msg" id="email-error"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                    <span class="error-msg" id="phone-error"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" placeholder="Enter your age" min="1" max="150" required>
+                    <span class="error-msg" id="age-error"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="favorite-festival">Favorite Festival:</label>
+                    <select id="favorite-festival" name="favorite-festival" required>
+                        <option value="">-- Select a Festival --</option>
+                        <option value="diwali">Diwali</option>
+                        <option value="holi">Holi</option>
+                        <option value="navratri">Navratri</option>
+                        <option value="eid">Eid</option>
+                        <option value="christmas">Christmas</option>
+                        <option value="pongal">Pongal</option>
+                        <option value="onam">Onam</option>
+                        <option value="raksha-bandhan">Raksha Bandhan</option>
+                    </select>
+                    <span class="error-msg" id="festival-error"></span>
+                </div>
+
+                <div class="form-group checkbox">
+                    <input type="checkbox" id="agree-terms" name="agree-terms" required>
+                    <label for="agree-terms">I agree to receive festival updates and recommendations</label>
+                    <span class="error-msg" id="terms-error"></span>
+                </div>
+
+                <button type="submit" class="btn btn-submit">Register & Generate ID</button>
+                <button type="reset" class="btn btn-reset">Clear Form</button>
+            </form>
+
+            <div id="success-message" class="success-message" style="display: none;">
+                <div style="margin-bottom: 15px;">
+                    ✅ Registration successful! Your data has been saved.
+                </div>
+                <div style="font-size: 0.9rem; color: inherit; margin-bottom: 15px;">
+                    Your Registration ID: <strong id="display-reg-id"></strong>
+                </div>
+                <a href="INDEX.HTML" class="btn btn-home" style="display: inline-block; text-decoration: none; margin-top: 10px;">
+                    Visit Home Page & Explore Festivals →
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Indian Festivals Guide | Crafted with ❤️ for Web Technology</p>
+    </footer>
+    <script src="registration-script.js" defer></script>
+</body>
+
+</html>

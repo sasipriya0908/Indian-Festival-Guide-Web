@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<festivals>
+    <festival>
+        <name>Diwali</name>
+        <type>Festival of Lights</type>
+        <region>India</region>
+        <description>Celebrated with diyas, rangoli, sweets and prayers.</description>
+    </festival>
+    <festival>
+        <name>Holi</name>
+        <type>Festival of Colors</type>
+        <region>India</region>
+        <description>Celebrated with colors, music and spring festivities.</description>
+    </festival>
+    <festival>
+        <name>Navratri</name>
+        <type>Nine Nights Festival</type>
+        <region>India</region>
+        <description>A festival of devotion, Garba and Dandiya.</description>
+    </festival>
+    <festival>
+        <name>Eid</name>
+        <type>Festival of Breaking the Fast</type>
+        <region>India</region>
+        <description>Celebrated with prayers, charity, family gatherings and feasts.</description>
+    </festival>
+    <festival>
+        <name>Christmas</name>
+        <type>Festival of Joy</type>
+        <region>India</region>
+        <description>Celebrated with Christmas trees, prayers, gifts and festive meals.</description>
+    </festival>
+    <festival>
+        <name>Ganesh Chaturthi</name>
+        <type>Festival of Lord Ganesha</type>
+        <region>India</region>
+        <description>Celebrated with Ganesh idols, prayers, Modak and Visarjan.</description>
+    </festival>
+    <festival>
+        <name>Pongal</name>
+        <type>Harvest Festival</type>
+        <region>Tamil Nadu</region>
+        <description>A harvest festival celebrated with Pongal, sugarcane and kolam.</description>
+    </festival>
+    <festival>
+        <name>Onam</name>
+        <type>Harvest Festival</type>
+        <region>Kerala</region>
+        <description>Celebrated with Pookalam, Onam Sadya and Vallam Kali.</description>
+    </festival>
+    <festival>
+        <name>Raksha Bandhan</name>
+        <type>Sibling Bond Festival</type>
+        <region>India</region>
+        <description>Celebrates the bond of love and protection between siblings.</description>
+    </festival>
+</festivals>
